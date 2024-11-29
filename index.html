@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Personal Blog</title>
+  <style>
+    /* General Styles */
+    body {
+      font-family: 'Georgia', serif;
+      margin: 0;
+      padding: 0;
+      line-height: 1.8;
+      background-color: #f3f8f3;
+      color: #333;
+    }
+
+    /* Header */
+    header {
+      background-color: #2a603b; /* Green theme */
+      color: #fff;
+      padding: 20px 0;
+      text-align: center;
+    }
+
+    header h1 {
+      font-size: 3em;
+      margin: 0;
+      font-family: 'Merriweather', serif;
+    }
+
+    header p {
+      font-size: 1.2em;
+      margin: 10px 0 0;
+      font-style: italic;
+    }
+
+    /* Navigation */
+    nav {
+      background-color: #3e7a4d;
+      text-align: center;
+      padding: 10px 0;
+    }
+
+    nav a {
+      color: #fff;
+      text-decoration: none;
+      margin: 0 15px;
+      font-size: 1.1em;
+      font-weight: bold;
+    }
+
+    nav a:hover {
+      text-decoration: underline;
+    }
+
+    /* Main Container */
+    .container {
+      max-width: 1000px;
+      margin: 20px auto;
+      padding: 0 15px;
+    }
+
+    /* Blog Post */
+    .post {
+      margin-bottom: 40px;
+      padding: 20px;
+      background: #fff;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+      border-radius: 5px;
+    }
+
+    .post h2 {
+      color: #2a603b;
+      font-size: 2.2em;
+    }
+
+    .post p {
+      font-size: 1.1em;
+      margin: 15px 0;
+    }
+
+    .post img {
+      width: 100%;
+      height: auto;
+      margin: 15px 0;
+      border-radius: 5px;
+    }
+
+    .read-more {
+      color: #2a603b;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    .read-more:hover {
+      text-decoration: underline;
+    }
+
+    /* About Section */
+    .about {
+      background: #dbe8dc;
+      padding: 20px;
+      margin: 20px 0;
+      border-radius: 5px;
+    }
+
+    .about h2 {
+      font-size: 1.8em;
+      color: #2a603b;
+    }
+
+    .about p {
+      font-size: 1.2em;
+      color: #444;
+    }
+
+    /* Footer */
+    footer {
+      text-align: center;
+      padding: 20px 0;
+      background: #2a603b;
+      color: #fff;
+      margin-top: 40px;
+    }
+
+    footer p {
+      margin: 0;
+      font-size: 1em;
+    }
+  </style>
+</head>
+<body>
+  <!-- Header -->
+  <header>
+    <h1>Welcome to My Blog</h1>
+    <p>Thoughts, musings, and a sprinkle of humor.</p>
+  </header>
+
+  <!-- Navigation -->
+  <nav>
+    <a href="#home">Home</a>
+    <a href="#about">About Me</a>
+    <a href="#posts">Posts</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <!-- About Section -->
+  <div class="container about" id="about">
+    <h2>About Me</h2>
+    <p>Hello! I’m a traveler, a storyteller, and an accidental foodie. I write about the places I visit, the meals I devour, and the hilarious mistakes I make along the way. Welcome to my corner of the internet!</p>
+  </div>
+
+  <!-- Blog Posts -->
+  <div class="container" id="posts">
+    <div class="post">
+      <h2>The Time I Got Lost in Venice</h2>
+      <img src="https://via.placeholder.com/1000x600" alt="Venice canals">
+      <p>
+        Venice is a maze of wonder, with its winding canals and narrow alleys. It’s also the perfect place to get lost,
+        which I did. A lot. But hey, who needs a map when you’ve got gelato at every corner?
+      </p>
+      <a href="#" class="read-more">Read more →</a>
+    </div>
+
+    <div class="post">
+      <h2>How to Survive Paris Without Speaking French</h2>
+      <img src="https://via.placeholder.com/1000x600" alt="Eiffel Tower">
+      <p>
+        Paris is beautiful, but let’s face it – my French is as good as a croissant’s math skills. Here’s how I navigated
+        the city with just smiles, nods, and the occasional “merci.”
+      </p>
+      <a href="#" class="read-more">Read more →</a>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer>
+    <p>© 2024 My Blog | Crafted with ❤️ and caffeine</p>
+  </footer>
+</body>
+</html>
